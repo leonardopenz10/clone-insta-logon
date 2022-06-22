@@ -160,3 +160,35 @@ body {
 .app-download:nth-child(2){
     background-image: url(./img/googleplay-button.png);
 }
+
+
+/* media queries */
+@media (max-width: 1024px) {
+    .instagram-wrapper{
+        width: 100%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: #fff;
+    }
+    .instagram-wrapper{
+        width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
+    }
+    .user-logon input {
+        width: 100%;
+    }
+    .instagram-phone{
+        display: none;
+    }
+    .download {
+        flex-direction: column;
+    }
+    .login-to-facebook img {
+        width: 30%;
+    }
+}
